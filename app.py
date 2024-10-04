@@ -3,7 +3,7 @@ usuarios = []
 while True:
     print("\nMenu:")
     print("1. Cadastrar usuário")
-    print("2. Exibir usuários cadastrados")
+    print("2. Exibir lista de usuários cadastrados")
     print("3. Sair")
     
     escolha = input("Escolha uma opção: ")
@@ -16,8 +16,8 @@ while True:
             email = input("Digite o e-mail do usuário: ")
             profissao = input("Digite a profissão do usuário: ")
             tipo_sanguineo = input("Digite o tipo sanguíneo do usuário: ")
-            peso = input("Digite o peso do usuário (kg): ")
-            altura = input("Digite a altura do usuário (m): ")
+            peso = input("Digite o peso do usuário em (kg): ")
+            altura = input("Digite a altura do usuário em (m): ")
 
             usuario = {
                 "Nome": nome,
@@ -42,7 +42,7 @@ while True:
                 print("-" * 40)
 
         case '3':
-            print("Saindo do programa.")
+            print("Obrigado, volte sempre!.")
             break
 
         case _:
