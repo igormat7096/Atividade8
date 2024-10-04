@@ -2,9 +2,9 @@ usuarios = []
 
 while True:
     print("\nMenu:")
-    print("1. Cadastrar usuário")
-    print("2. Exibir lista de usuários cadastrados")
-    print("3. Sair")
+    print("1. Cadastrar usuário.")
+    print("2. Exibir lista de usuários cadastrados.")
+    print("3. Sair.")
     
     escolha = input("Escolha uma opção: ")
     
