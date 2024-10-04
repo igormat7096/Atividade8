@@ -31,7 +31,7 @@ while True:
             }
 
             usuarios.append(usuario)
-            print("Usuário cadastrado com sucesso!")
+            print(f"Usuário {usuario.get('Nome')} cadastrado com sucesso!")
 
         case '2':
             print("\nUsuários cadastrados:")
